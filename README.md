@@ -6,13 +6,13 @@ El repositorio esta agrupado enn la siguientes carpetas:
 
 - Lab_1
   - Laboratorio 1: HTML
-    ![image](../../Screenshots/Lab1.jpg)
+    ![image](https://github.com/DanielCuSanchez/DAW_DB/Screenshots/Lab1.jpg)
 - Lab_2
   - Laboratorio 2: Gitub
-    ![image](./Screenshots/Lab2.jpg)
+    ![image](https://github.com/DanielCuSanchez/DAW_DB/Screenshots/Lab2.jpg)
 - Lab_3
   - Laboratorio 3: CSS:
-    ![image](./Screenshots/Lab3.jpg)
+    ![image](https://github.com/DanielCuSanchez/DAW_DB/Screenshots/Lab3.jpg)
 
 #### Descargar repositorio
 
