@@ -6,7 +6,7 @@ El repositorio esta agrupado enn la siguientes carpetas:
 
 - Lab_1
   - Laboratorio 1: HTML
-    ![image](./Screenshots/Lab1.jpg)
+    ![image](../../Screenshots/Lab1.jpg)
 - Lab_2
   - Laboratorio 2: Gitub
     ![image](./Screenshots/Lab2.jpg)
