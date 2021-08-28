@@ -28,7 +28,7 @@ const dataCards = [
 
 function templateCard(car) {
   return `
-  <div class="card" style="width: 14rem;">
+  <div class="card bg-light" >
     <img src="${car.img}" class="card-img-top" alt="${car.modelo}">
     <div class="card-body">
       <h5 class="card-title">${car.modelo}</h5>
@@ -152,12 +152,13 @@ function showSummary() {
 
 function templateCarSummary(car, index) {
   return `
-  <div class="card">
+  <div class="card bg-dark text-light">
     <div class="card-header">
       ${car.modelo}
     </div>
+    
     <div class="card-body">
-      <h5 class="card-title">${car.precio.toLocaleString("en-MX")}</h5>
+      <h5 class="card-title">$${car.precio.toLocaleString("en-MX")}</h5>
       <p class="card-text">Precio mas IVA</p>
       <button id="${index}" class="btn btn-danger btn-delete-car">Eliminar</button>
     </div>
