@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Validador passwords</title>
+</head>
+
+<body>
+  <div class="container ">
+    <h1 class="my-5 text-center">
+      Validador
+    </h1>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form id="form">
+          <p>Programa que válida contraseña</p>
+          <div class="mb-3">
+            <label class="form-label">Contraseña</label>
+            <input id="password" type="password" class="form-control" required>
+            <div class="form-text">Tus datos estan seguros y no serán compartidos con terceros</div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Repite la contraseña</label>
+            <input id="passwordrepeat" type="password" class="form-control" required>
+          </div>
+          <div class="mb-3 form-check">
+            <div id="feedback"></div>
+          </div>
+          <button type="submit" class="btn btn-primary">Validar</button>
+        </form>
+      </div>
+    </div>
+    <div class="row mt-5 text-center justify-content-center">
+      <div class="col-md-8">
+        <h4>Prueba con estas contraseñas</h4>
+        <div class="alert alert-primary" role="alert">
+          A simple primary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          A simple secondary alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+          A simple success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+          A simple danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+          A simple warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+          A simple info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+          A simple light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+          A simple dark alert—check it out!
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./validator.js"></script>
+</body>
+
+</html>
