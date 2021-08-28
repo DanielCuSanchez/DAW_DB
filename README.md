@@ -15,6 +15,12 @@ Menu principal **Proyecto:** [CLICK AQUI](https://danielcusanchez.github.io/DAW_
 - Lab_3
   - Laboratorio 3: CSS:
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab3.JPG?raw=true)
+- Lab_5
+  - Laboratorio 5: Fundamentos de Javascript:
+    ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab5.JPG?raw=true)
+- Lab_6
+  - Laboratorio 6: Programación orientada a eventos:
+    ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab6.JPG?raw=true)
 
 #### Descargar repositorio
 
