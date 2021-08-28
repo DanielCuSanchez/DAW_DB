@@ -16,13 +16,12 @@
       Validador
     </h1>
     <div class="row justify-content-center">
-      <div class="col-md-8">
-        <form id="form">
-          <p>Programa que válida contraseña</p>
+      <div class="col-md-4 col-12">
+        <form id="form" autocomplete="off">
+          <h3>Ingresa un contraseña</h3>
           <div class="mb-3">
             <label class="form-label">Contraseña</label>
             <input id="password" type="password" class="form-control" required>
-            <div class="form-text">Tus datos estan seguros y no serán compartidos con terceros</div>
           </div>
           <div class="mb-3">
             <label class="form-label">Repite la contraseña</label>
@@ -31,39 +30,47 @@
           <div class="mb-3 form-check">
             <div id="feedback"></div>
           </div>
-          <button type="submit" class="btn btn-primary">Validar</button>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg">Validar</button>
+          </div>
         </form>
       </div>
-    </div>
-    <div class="row mt-5 text-center justify-content-center">
-      <div class="col-md-8">
+      <div class="col-md-6 col-12">
         <h4>Prueba con estas contraseñas</h4>
-        <div class="alert alert-primary" role="alert">
-          A simple primary alert—check it out!
-        </div>
-        <div class="alert alert-secondary" role="alert">
-          A simple secondary alert—check it out!
-        </div>
-        <div class="alert alert-success" role="alert">
-          A simple success alert—check it out!
+        <div class="alert alert-danger" role="alert">
+          Contraseña: 12344
+          Repite contraseña: 123
+          <br>
+          <b>Error: Revisa la longitud de tu contraseña en alguno de los campos</b>
         </div>
         <div class="alert alert-danger" role="alert">
-          A simple danger alert—check it out!
+          Contraseña: Holamundo
+          Repite contraseña: Holamund0
+          <br>
+          <b>Error: Tus contraseñas no coinciden</b>
+        </div>
+        <div class="alert alert-danger" role="alert">
+          Contraseña: 1234Hola12
+          Repite contraseña: 1234Hola12
+          <br>
+          <b>Error: "Asegurate de contener al menos una letra minuscula, mayuscula y algun caracter especial en tu
+            contraseña [!@#$%^&*]</b>
         </div>
         <div class="alert alert-warning" role="alert">
-          A simple warning alert—check it out!
+          Contraseña: 123Hola0$
+          Repite contraseña: 123Hola0$
+          <br>
+          <b>Error: La contraseña debe contener minimo 10 digitos</b>
         </div>
-        <div class="alert alert-info" role="alert">
-          A simple info alert—check it out!
-        </div>
-        <div class="alert alert-light" role="alert">
-          A simple light alert—check it out!
-        </div>
-        <div class="alert alert-dark" role="alert">
-          A simple dark alert—check it out!
+        <div class="alert alert-success" role="alert">
+          Contraseña: 123Hola0$2
+          Repite contraseña: 123Hola0$2
+          <br>
+          <b>Error: La contraseña paso la validación 😀</b>
         </div>
       </div>
     </div>
+
   </div>
   <script src="./validator.js"></script>
 </body>
