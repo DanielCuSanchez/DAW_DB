@@ -4,6 +4,22 @@
 
 Menu principal **Proyecto:** [CLICK AQUI](https://danielcusanchez.github.io/DAW_DB/)
 
+#### Descargar repositorio
+
+```
+git clone https://github.com/DanielCuSanchez/DAW_DB.git
+```
+
+#### Instalar live server
+
+Esta extension nos permite correr un servidor local para refrescar cambios.
+
+```
+Extensiones vscode: Live Server. Click derecho sobre cualquier archivo html, iniciar live server.
+```
+
+### **Autor:** _Daniel Cu Sánchez - A01703613_
+
 ##### El repositorio esta agrupado enn la siguientes carpetas:
 
 - Lab_1
@@ -24,19 +40,3 @@ Menu principal **Proyecto:** [CLICK AQUI](https://danielcusanchez.github.io/DAW_
 - Lab_7
   - Laboratorio 7: Front-end Frameworks:
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab7.JPG?raw=true)
-
-#### Descargar repositorio
-
-```
-git clone https://github.com/DanielCuSanchez/DAW_DB.git
-```
-
-#### Instalar live server
-
-Esta extension nos permite correr un servidor local para refrescar cambios.
-
-```
-Extensiones vscode: Live Server. Click derecho sobre cualquier archivo html, iniciar live server.
-```
-
-### **Autor:** _Daniel Cu Sánchez - A01703613_
