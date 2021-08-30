@@ -21,6 +21,9 @@ Menu principal **Proyecto:** [CLICK AQUI](https://danielcusanchez.github.io/DAW_
 - Lab_6
   - Laboratorio 6: Programación orientada a eventos:
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab6.JPG?raw=true)
+- Lab_7
+  - Laboratorio 7: Front-end Frameworks:
+    ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab7.JPG?raw=true)
 
 #### Descargar repositorio
 
