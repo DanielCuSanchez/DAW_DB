@@ -24,7 +24,7 @@ function characterTemplate(character, type) {
 
   if (type === "card") {
     const templateCard = `
-    <div class="col s4">
+    <div class="col s12 m4">
       <div class="card center">
         <div class="card-title ">
           ${name}
