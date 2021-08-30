@@ -42,7 +42,7 @@ function characterTemplate(character, type) {
   } else if (type === "detail") {
     const templateHorizontal = `
     <div class="col s12">
-      <h2 class="header"> ${name}</h2>
+      <h2>${name}</h2>
       <div class="card horizontal">
         <div class="card-image">
          <img src="${image}">
