@@ -1,39 +1,34 @@
-const path = require("path");
-const fs = require("fs");
 const HOSTNAME = "127.0.0.1";
 const PORT = 3000;
 
 const requestHandler = (req, res) => {
-  console.log(req.url);
-  //Reaccionar de acuerdo a la ruta
   if (req.url === "/arreglo") {
+    res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
     res.write('<head><meta charset="UTF-8"></head>');
-    res.write("<h1>¡Hola mundo!</h1>");
+    res.write("<h1>¡Hola esta es la ruta arreglo!</h1>");
     res.end();
-  } else if (req.url === "/menu") {
-    //Mostrar la lista de platillos
+  } else if (req.url === "/matriz") {
+    res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
     res.write('<head><meta charset="UTF-8"></head>');
-    res.write("<h1>Menú</h1>");
-    res.write("<ul>");
-    for (let platillo of platillos) {
-      res.write(
-        "<li>" + platillo.nombre + ": " + platillo.descripcion + "</li>"
-      );
-    }
-    res.write("</ul>");
-    res.write('<a href="/menu/add">Agregar platillo</a>');
+    res.write("<h1>¡Hola esta es la ruta matriz!</h1>");
     res.end();
-  } else {
+  } else if (req.url === "/saludo") {
+    res.statusCode = 200;
+    res.setHeader("Content-Type", "text/html");
+    res.write('<head><meta charset="UTF-8"></head>');
+    res.write("<h1>¡Hola esta es la ruta saludo!</h1>");
+    res.end();
+  } else if (req.url === "/") {
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/plain");
-    res.end("Hola mundo desde express");
+    res.end("Ingresa alguna ruta: /arreglo, /matriz, /saludo");
+  } else {
+    res.statusCode = 404;
+    res.setHeader("Content-Type", "text/plain");
+    res.end("Error 404");
   }
 };
 
 module.exports = { requestHandler, HOSTNAME, PORT };
-
-//Una función que reciba un arreglo de números y devuelva su promedio.
-//Una función que reciba un string y escriba el string en un archivo de texto. Apóyate del módulo fs.
-//Escoge algún problema que hayas implementado en otro lenguaje de programación, y dale una solución en js que se ejecute sobre node.
