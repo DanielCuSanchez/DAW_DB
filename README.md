@@ -41,11 +41,11 @@ Extensiones vscode: Live Server. Click derecho sobre cualquier archivo html, ini
   - Laboratorio 7: Front-end Frameworks:
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab7.JPG?raw=true)
 - Lab_8
-  - Laboratorio 8: Front-end Frameworks:
+  - Laboratorio 8: Bases de Datos de Escritorio (MS Access):
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab8.JPG?raw=true)
 - Lab_9
-  - Laboratorio 9: Front-end Frameworks:
+  - Laboratorio 9: Introducción al back-end:
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab9.JPG?raw=true)
 - Lab_10
-  - Laboratorio 10: Front-end Frameworks:
+  - Laboratorio 10: Rutas y formas:
     ![Image of Lab](https://github.com/DanielCuSanchez/DAW_DB/blob/master/Screenshots/Lab10.JPG?raw=true)
